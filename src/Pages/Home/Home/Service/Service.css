@@ -1,7 +1,12 @@
 .service-info img{
-  width: 400px;
+  width: 100%;
   
 }
 .service-info{
-    margin-bottom: 20px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    text-align: center;
 }
+
+
