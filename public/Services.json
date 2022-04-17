@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "picture": "https://i.ibb.co/7KyfFM6/gym2.jpg",
+    "price": 349,
+    "name": "Mcintosh Carroll",
+    "description": "Enim ut pariatur sit cillum sunt cillum elit.\r\n"
+  },
+  {
+    "id": 2,
+    "picture": "https://i.ibb.co/YTrPQXs/gym1.jpg",
+    "price": 275,
+    "name": "Tessa Chapman",
+    "description": "Nulla nostrud elit et eiusmod ad irure consectetur.\r\n"
+  },
+  {
+    "id": 3,
+    "picture": "https://i.ibb.co/SdY6js5/gym3.jpg",
+    "price": 239,
+    "name": "Anthony Randolph",
+    "description": "Consequat consequat labore veniam sit nostrud do qui.\r\n"
+  },
+  {
+    "id": 4,
+    "picture": "https://i.ibb.co/SdY6js5/gym3.jpg",
+    "price": 307,
+    "name": "Gibson Pena",
+    "description": "Duis ad quis ullamco officia cupidatat ex.\r\n"
+  }
+]
