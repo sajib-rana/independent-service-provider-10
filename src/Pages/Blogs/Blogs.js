@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blogs = () => {
     return (
-      <div style={{width:'80%'}} className='mx-auto'>
+      <div style={{ width: "80%" }} className="mx-auto">
         <h3>Difference between authorization and authentication?</h3>
         <p>
           authentication: By identify the email and password checked the users
@@ -19,19 +19,22 @@ const Blogs = () => {
           implement authentication?
         </h3>
         <p>
-          google firebase founded in 2011 as a chat API.it helps reduces
-          development workload and time.firebase removes the need to worry about
-          the technicalities of cloud server configuaration.firebase gives
-          access to other google products and features, like google drive and
-          sheets.firebase helps realtime database, authentication, cloud
-          messaging, storage, hosting, remote config, test lab, cresh reporting
-          etc. without firebase there are many system in authentication like
-          oneLogin, JumpCloud, Microsoft Azure Active Directory, CyberArk
-          Identity, Auth0, Ripping, SecureAuth Identity Platform, ForgeRock etc.
+          I'm using firebase just because of it's security and built in
+          authentication system with third party websites like Google, Facebook,
+          Github, Apple, Yahoo, Twitter etc. We can use our won authentication
+          system instead of firebase. We can store all of the user's login
+          credentials in our database and then create a password based
+          authentication system as well. Also we have some alternative instead
+          of Firebase - 1. Parse 2. Back4app 3. Kinvey 4. Kuzzle etc
         </p>
         <h3>
           What other services does firebase provide other than authentication?
         </h3>
+        <p>
+          Firebase services - Firebase provides so many services for us. Some of
+          them are - Firestore Hosting Real time database Cloud Storage/Hosting
+          Google Analytics Cloud Messaging
+        </p>
       </div>
     );
 };
