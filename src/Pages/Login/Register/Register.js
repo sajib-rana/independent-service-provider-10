@@ -6,12 +6,8 @@ import './Register.css'
 import SocialLogin from '../Login/SocialLogin/SocialLogin';
 
 const Register = () => {
-    const [
-  createUserWithEmailAndPassword,
-  user,
-  loading,
-  error,
-] = useCreateUserWithEmailAndPassword(auth);
+    const [createUserWithEmailAndPassword, user, loading, error] =
+      useCreateUserWithEmailAndPassword(auth, { sendEmailVerification : true});
     const navigate = useNavigate()
 
     const navigateLogin = () =>{
@@ -36,7 +32,7 @@ const Register = () => {
                 <input type="email" name="email" id="" placeholder='Your email' required/>
                
                 <input type="password" name="password" id="" placeholder='Your password' required/>
-                <input type="submit" value="Register" />
+                <input className='register-btn' type="submit" value="Register" />
                 
             </form>
             <p>Already have an account ? <Link to='/login' className='text-danger text-decoration-none' onClick={navigateLogin}>Please Login</Link></p>
